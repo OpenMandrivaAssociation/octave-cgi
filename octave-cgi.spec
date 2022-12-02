@@ -4,10 +4,10 @@ Summary:	Common Gateway Interface for Octave.
 Name:		octave-%{octpkg}
 Version:	0.1.2
 Release:	2
-Source0:	http://downloads.sourceforge.net/octave/%{octpkg}-%{version}.tar.gz
+Source0:	https://downloads.sourceforge.net/octave/%{octpkg}-%{version}.tar.gz
 License:	GPLv2+
 Group:		Sciences/Mathematics
-Url:		https://octave.sourceforge.io/%{octpkg}/
+Url:		https://packages.octave.org/%{octpkg}/
 
 BuildRequires:	octave-devel >= 3.8.0
 
@@ -20,8 +20,6 @@ Requires(postun): octave
 
 %description
 Common Gateway Interface for Octave.
-
-This package is part of community Octave-Forge collection.
 
 %files
 %license COPYING
