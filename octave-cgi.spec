@@ -3,7 +3,7 @@
 Summary:	Common Gateway Interface for Octave.
 Name:		octave-%{octpkg}
 Version:	0.1.2
-Release:	2
+Release:	3
 Source0:	https://downloads.sourceforge.net/octave/%{octpkg}-%{version}.tar.gz
 License:	GPLv2+
 Group:		Sciences/Mathematics
